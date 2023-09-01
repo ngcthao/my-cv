@@ -37,6 +37,14 @@ td a {text-decoration: none;}
     height: 893px;
 }
 
+.projects, .projects:link, .projects:visited  {
+    color: black;
+}
+
+.projects:hover, .projects:active {
+    color: #1E254A;
+}
+
 .nav-table {
     padding-top: 20px;
     margin: 0 auto;
@@ -141,4 +149,29 @@ h2 {
     margin: 10px auto;
     width: 75%;
     line-height: 1.5em;
+}
+
+#contact {
+    text-align: center;
+    align-items: center;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+#email {
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 100px;
+}
+
+
+#email:link, #email:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#email:hover, #email:active {
+    text-decoration: none;
+    color: #1E254A;
 }
